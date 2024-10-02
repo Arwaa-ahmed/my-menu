@@ -1,0 +1,67 @@
+section{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+body{
+    background: whitesmoke;
+}
+ul li{
+    list-style: none;
+    border: 1px solid rgb(171, 164, 49);
+    color: rgb(171, 164, 49);
+    padding: 5px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+.swich li.active,
+.swich li:hover{
+    background: rgb(171, 164, 49);
+    color: aliceblue;
+    cursor: pointer;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-right:20px ;
+}
+p{
+    width: 50%;
+    color: gray;
+}
+.allfood{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left .all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.right .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.pic{
+    border: 3px solid rgb(171, 164, 49);
+    width: 152px;
+    height: 152px;
+    margin-right: 20px;
+}
+span{
+    color:rgb(171, 164, 49) ;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+h4{
+    position: relative;
+    border-bottom: 1px solid rgb(159, 158, 158) ;
+    padding-bottom: 5px;
+}
